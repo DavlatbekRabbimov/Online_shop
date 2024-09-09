@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ONLINE SHOP PROJECT
 
 
@@ -17,6 +18,9 @@
 - Phone number: +998(90) 600 69 89
 - E-mail address: davsdd091@gmail.com
 - Telegram address: @davsdd
+=======
+# Online_shop
+>>>>>>> 98c0c6d49ca6cbcf89ec5e227514ec08d65a1cf0
 =======
 # Online_shop
 >>>>>>> 98c0c6d49ca6cbcf89ec5e227514ec08d65a1cf0
