@@ -1,7 +1,15 @@
 import React from 'react';
 import {FaArrowRightToBracket} from "react-icons/fa6";
 import {useProvider} from "../../../../../../global/provider/provider.jsx";
-import { menHeaders, menPaths, womenHeaders, womenPaths, kidsHeaders, kidsPaths, animalsHeaders, animalsPaths
+import {
+    animalsHeaders,
+    animalsPaths,
+    kidsHeaders,
+    kidsPaths,
+    menHeaders,
+    menPaths,
+    womenHeaders,
+    womenPaths
 } from "./cl-headers.jsx";
 import {useGallery} from "../../../../../../global/provider/gallery-provider.jsx";
 

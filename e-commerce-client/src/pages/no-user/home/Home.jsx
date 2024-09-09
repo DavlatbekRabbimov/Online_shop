@@ -16,7 +16,6 @@ import {VrfSuccess} from "../../../../global/notification/success/vrf-success.js
 import {VrfError} from "../../../../global/notification/error/vrf-error.jsx";
 import {UserTopCenter} from "../../user/user-top-center.jsx";
 import {UserTopRight} from "../../user/user-top-right.jsx";
-import {PhoneCallerWindow} from "../../../../global/sides/sides-components/bottom-left/phone-caller-window.jsx";
 
 export const Home = () => {
 

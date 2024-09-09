@@ -4,7 +4,6 @@ import {ImageSlider} from "./ms1-sliders/image-slider.jsx";
 import {useProvider} from "../../../../../global/provider/provider.jsx";
 import {useGallery} from "../../../../../global/provider/gallery-provider.jsx";
 import {Operations, RenderWindow} from "../../../../../global/operation/operations.jsx";
-import {FaPhoneAlt} from "react-icons/fa";
 
 export const MS1 = () => {
 

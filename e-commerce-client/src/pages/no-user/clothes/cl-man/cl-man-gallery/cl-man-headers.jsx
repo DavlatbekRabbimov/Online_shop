@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export const msHeaders = [`MS-1`, `MS-2`, `MS-3`, `MS-4`];
 export const msPaths = ['ms-1', 'ms-2', 'ms-3', 'ms-4'];
 export const msPrices = ['$10.0', '$15.0', '$20.0', '$25.0']

@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Линия растет с центра влево и вправо*/
 @keyframes widen {
     0% { transform: scaleX(0); }
     100% { transform: scaleX(1); }
@@ -13,13 +12,11 @@
     @apply ease-in-out relative origin-center w-[1034px]
 }
 
-/*Прижок для появления*/
 @keyframes jump-in {
     0% { opacity: 0; transform: scale(0); }
     100% { opacity: 1; transform: scale(1); }
 }
 
-/*Прижок для ухода*/
 @keyframes jump-out {
     0% { opacity: 1; transform: scale(1); }
     100% { opacity: 0; transform: scale(0); }

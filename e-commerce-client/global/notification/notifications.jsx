@@ -1,5 +1,5 @@
 import {useProvider} from "../provider/provider.jsx";
-import React, {createContext, useContext, useState} from "react";
+import React, {createContext, useContext} from "react";
 
 const NotificationsContext = createContext();
 export const Notifications = ({children}) => {
