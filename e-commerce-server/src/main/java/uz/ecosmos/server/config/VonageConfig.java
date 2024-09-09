@@ -24,7 +24,7 @@ public class VonageConfig {
                 .apiKey(apiKey)
                 .apiSecret(apiSecret)
                 .applicationId(applicationId)
-                .privateKeyPath("C:\\ENTER\\DeVLoP\\Business_Projects\\FullStack\\React-Springboot\\COM-Management\\e-commerce-server\\src\\main\\resources\\private.key")
+                .privateKeyPath("path")
                 .build();
     }
 }

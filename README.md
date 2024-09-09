@@ -20,7 +20,5 @@
 - Telegram address: @davsdd
 =======
 # Online_shop
->>>>>>> 98c0c6d49ca6cbcf89ec5e227514ec08d65a1cf0
-=======
+
 # Online_shop
->>>>>>> 98c0c6d49ca6cbcf89ec5e227514ec08d65a1cf0

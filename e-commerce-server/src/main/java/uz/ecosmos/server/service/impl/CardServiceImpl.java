@@ -25,7 +25,7 @@ public class CardServiceImpl implements CardService {
     public Card addCard() {
         Card card = new Card();
         try {
-            card.setCardNumber("8500013032421002");
+            card.setCardNumber("8500000000000");
             card.setBalance(new BigDecimal("0.0"));
             card.setFullName("Davlatbek Rabbimov");
             card.setMonth(12);

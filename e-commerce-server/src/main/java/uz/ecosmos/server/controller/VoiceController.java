@@ -19,7 +19,7 @@ public class VoiceController {
     @PostMapping("/call")
     public ResponseEntity<String> makeCall(@RequestParam String toNumber) {
         try {
-            voiceService.makeCall(toNumber, "998906006989", "https://0a7a20438aae203942073bb09c629643.serveo.net");
+            voiceService.makeCall(toNumber, "9989000000", "url");
             return ResponseEntity.ok("Call made successfully");
         } catch (Exception e) {
             e.printStackTrace();

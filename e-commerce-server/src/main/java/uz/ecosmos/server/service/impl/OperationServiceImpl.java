@@ -48,7 +48,7 @@ public class OperationServiceImpl implements OperationService {
         try {
             Order order = orderRepo.findById(orderId).orElseThrow(() -> new RuntimeException("Error: OrderID is not found!"));
             BigDecimal paymentAmount = order.getProductPrice();
-            Card card = cardService.getCardNumber("8500013032421002");
+            Card card = cardService.getCardNumber("8000000000000000000");
             if (paymentAmount.compareTo(card.getBalance()) > 0) {
                 throw errorMessage.errorLogic("Error: Card balance does not have enough funds! - operation service");
             }
