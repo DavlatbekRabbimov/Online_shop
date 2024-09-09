@@ -1,7 +1,7 @@
 # ONLINE SHOP PROJECT
 
 
-![online-shop-logo](https://github.com/DavlatbekRabbimov/Online-shop/assets/110993036/7a5166ca-4d14-42cb-bfcf-a47eb59720fb)
+![293903599-7a5166ca-4d14-42cb-bfcf-a47eb59720fb](https://github.com/user-attachments/assets/2a329538-30f6-4c79-a5ee-533dfa72c294)
 
 ### TOOLS
 - HTML
