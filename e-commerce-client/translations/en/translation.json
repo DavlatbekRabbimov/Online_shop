@@ -1,0 +1,21 @@
+{
+  "nav_link": {
+    "home": "Home"
+  },
+  "label" : {
+    "login": "Login",
+    "password": "Password"
+  },
+  "input_txt" : {
+    "login": "Login",
+    "password": "Password"
+  },
+  "button" : {
+    "sign_in": "Sign in",
+    "sign_up": "Sign up"
+  },
+
+  "title_link" : {
+  "forgot": "Forgot password?"
+}
+}

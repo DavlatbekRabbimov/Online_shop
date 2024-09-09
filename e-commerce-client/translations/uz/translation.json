@@ -1,0 +1,21 @@
+{
+  "nav_link": {
+    "home": "Bosh sahifa"
+  },
+  "label" : {
+    "login": "Kirish",
+    "password": "Sirli so'z"
+  },
+  "input_txt" : {
+    "login": "E-xabar manzili",
+    "password": "Sirli so'z"
+  },
+  "button" : {
+    "sign_in": "Kirish",
+    "sign_up": "Ro'yxat"
+  },
+
+  "title_link" : {
+    "forgot": "Sirli so'z esdan chiqdimi?"
+  }
+}

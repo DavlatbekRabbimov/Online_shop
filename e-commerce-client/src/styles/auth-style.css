@@ -1,0 +1,54 @@
+@import "../../node_modules/normalize.css/normalize.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.auth-box {
+    @apply absolute top-[100px] left-[500px] w-[500px] h-[300px] rounded-lg bg-white text-black
+}
+
+.auth-window-box {
+    @apply flex flex-col justify-center items-center w-full h-full
+}
+
+.auth-window-label {
+    @apply mb-4 text-[20px] font-body
+}
+
+.phone-input-container {
+    @apply flex flex-col justify-center space-y-4
+
+}
+/*--- PHONE ---*/
+
+.phone-input {
+    @apply w-[300px] h-[50px] rounded-[5px] text-[25px] text-white
+    outline-none border-none bg-transparent z-[1]
+}
+
+.phone-input-bg {
+    @apply absolute top-[100px] w-[300px] h-[50px] text-[25px] rounded-[5px] text-white
+    outline-none border-none z-0
+}
+
+.send-sms-button {
+    @apply w-[300px] h-[50px] mt-4 rounded-[5px] text-white text-[20px] font-display
+    bg-blue-800 hover:bg-blue-600 hover:text-[23px] ease-out duration-75
+}
+
+/*--- VERIFICATION ---*/
+
+.verify-number {
+    @apply flex flex-col justify-center space-y-4
+}
+
+.verify-number-button {
+    @apply w-[300px] h-[50px] mt-4 rounded-[5px] text-white text-[20px] font-display
+    bg-blue-800 hover:bg-blue-600 hover:text-[23px] ease-out duration-75
+}
+
+.otpInput {
+    @apply text-[25px] w-[500px] bg-transparent
+    outline-none border-2 border-b-gray-950 text-black
+}

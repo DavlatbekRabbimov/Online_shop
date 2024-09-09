@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.top-right-logout-container {
+    @apply absolute top-[150px] left-[65px] cursor-pointer
+}
+
+.user-top-right-balance-container {
+    @apply absolute top-[200px] left-[45px]
+    text-white text-[20px] font-inter font-bold text-center
+    cursor-pointer
+}

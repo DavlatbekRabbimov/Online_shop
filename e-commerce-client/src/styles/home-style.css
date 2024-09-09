@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------HOME-CATEGORIES-SLIDER----------------------- */
+.categories-slider-box {
+    @apply absolute top-[300px] left-[250px] w-2/3 h-size-categories-slider rounded-lg
+    bg-gradient-to-r from-purple-700 via-violet-800 to-purple-900 opacity-80 brightness-125
+}
+.categories-container {
+    @apply flex flex-col justify-center items-center w-full h-full
+}
+
+.clothes-label-container {
+    @apply flex flex-row justify-center items-center space-x-6 mb-4
+}
+
+.clothes-label {
+    @apply text-[25px] font-display
+}
+
+.clothes-items {
+    @apply flex flex-row justify-center items-center space-x-2
+}
+
+.clothes-items-header {
+    @apply grid grid-flow-col justify-items-center w-full
+    font-inter text-center text-[20px] cursor-pointer mt-2
+}
+
+/* ----------------------------LEFT-MENU---------------------------- */
+.left-menu-box {
+    @apply absolute left-0 w-[200px] h-menu rounded-lg
+    ml-[25px] mt-4 text-black
+    bg-gradient-to-r from-fuchsia-800 to-purple-950 bg-opacity-70 backdrop-blur-xl drop-shadow-lg
+}
+
+.left-menu-list {
+    @apply flex flex-col items-center justify-center mt-[220px]
+    space-y-6 text-start text-[20px] text-white font-display
+}
+
+/* ----------------------------RIGHT-MENU---------------------------- */
+
+.right-menu-box {
+    @apply absolute right-0 w-[200px] h-menu mr-[25px] mt-4 ml-[25px]
+    text-white rounded-lg
+    bg-gradient-to-r from-fuchsia-800 to-purple-950 bg-opacity-70 backdrop-blur-xl drop-shadow-lg
+}
+
+.right-menu-list {
+    @apply flex flex-col items-center justify-center mt-[220px] space-y-6
+    text-start text-[20px] text-white font-display
+}
+
+/* ---------------------------- SIZES --------------------------- */
+.h-menu {
+    height: 96%;
+}
+
+.h-size-categories-slider {
+    height: 57%;
+}

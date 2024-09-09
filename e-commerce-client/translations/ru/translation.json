@@ -1,0 +1,20 @@
+{
+  "nav_link": {
+    "home": "Главная"
+  },
+  "label" : {
+    "login": "Логин",
+    "password": "Пароль"
+  },
+  "input_txt" : {
+    "login": "Э-почта",
+    "password": "Пароль"
+  },
+  "button" : {
+    "sign_in": "Войти",
+    "sign_up": "Регистер"
+  },
+  "title_link" : {
+  "forgot": "Забыли пароль?"
+}
+}

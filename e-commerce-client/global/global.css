@@ -1,0 +1,161 @@
+@import "normalize.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: black;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: black;
+}
+
+/* CHECK-BOX */
+.checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #3b0746;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background: #64008d;
+}
+
+/* LINK */
+.link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ----------------------------APP-BOX---------------------------- */
+
+.app-container {
+    @apply bg-gradient-to-r from-black via-slate-900 to-black w-full overflow-hidden
+}
+
+/* ----------------------------SEARCH-BOX---------------------------- */
+
+.search-box-container {
+    @apply absolute top-[37px] right-[550px] cursor-pointer
+}
+
+.search-box-icon-container {
+    @apply absolute top-[2px] right-[15px] cursor-pointer z-10
+}
+
+.search-box-icon {
+    @apply w-[40px] h-[40px]
+    rounded-full border-solid border-[3px] border-black p-1
+    bg-purple-800 hover:bg-purple-600 cursor-pointer
+    font-bold text-white/70 hover:text-black
+}
+
+.search-box-input {
+    @apply absolute -top-[5px] right-[0px] w-[500px] h-[55px]
+    text-[25px] text-center
+    rounded-full focus:ring-4 focus:ring-amber-50 focus:outline-none
+    border-purple-500 border-solid border-[2.5px]
+    bg-transparent
+}
+
+/* ----------------------------CANVAS---------------------------- */
+.stars-canvas {
+    @apply w-full h-auto absolute inset-0 z-0 bg-gray-950
+}
+
+/* ----------------------------TOP-LEFT---------------------------- */
+
+.logo-motion {
+    @apply absolute -top-[120px] w-[175px] h-[275px] rounded-lg left-[37px]
+    bg-gradient-to-r from-purple-700 via-violet-800 to-purple-900 opacity-80 brightness-125
+}
+
+.logo-container {
+    @apply absolute top-[150px] left-[55px] w-[60px] h-[60px]
+}
+
+.logo-motion-title {
+    @apply absolute top-[215px] left-[32px] text-white text-[20px] font-inter font-bold cursor-pointer
+}
+
+/* ----------------------------TOP-RIGHT---------------------------- */
+.top-right-box {
+    @apply absolute -top-[120px] w-[175px] h-[275px] rounded-lg right-[37px]
+    bg-gradient-to-r from-purple-700 via-violet-800 to-purple-900 opacity-80 brightness-125
+}
+
+.top-right-creator-icon {
+    @apply absolute top-[150px] left-[65px] cursor-pointer
+}
+
+.top-right-creator-container {
+    @apply absolute top-[200px] left-[5px] text-white text-[20px] font-inter font-bold text-center
+    cursor-pointer
+}
+
+/* ----------------------------TOP-CENTER---------------------------- */
+
+/*basket*/
+.basket-container {
+    @apply absolute top-[32px] right-[465px] cursor-pointer
+}
+
+.basket-icon {
+    @apply w-[48px] h-[48px] text-purple-500 hover:text-purple-300
+}
+
+/*heart*/
+.heart-container {
+    @apply absolute top-[40px] right-[400px] cursor-pointer
+}
+
+.heart-icon {
+    @apply w-[40px] h-[40px] text-purple-500 hover:text-purple-300
+}
+
+/*translator*/
+.translator-container {
+    @apply absolute top-[40px] right-[290px] w-[80px] cursor-pointer
+}
+
+/* ----------------------------BOTTOM-LEFT---------------------------- */
+
+.bottom-left-box {
+    @apply absolute bottom-0 left-[37px] w-[175px] h-[150px] rounded-lg
+    bg-gradient-to-r from-purple-700 via-violet-800 to-purple-900 opacity-80 brightness-125
+}
+
+/* ----------------------------BOTTOM-RIGHT---------------------------- */
+
+.bottom-right-box {
+    @apply absolute bottom-0 right-[37px] w-[175px] h-[150px] rounded-lg
+    bg-gradient-to-r from-purple-700 via-violet-800 to-purple-900 opacity-80 brightness-125
+}
+
+/* ----------------------------OPERATIONS---------------------------- */
+
+/*translator*/
+.account-product {
+    @apply absolute top-[105px] left-[761px] w-[650px] h-[465px] bg-purple-950 rounded-lg
+}
+
+.account-global {
+    @apply absolute top-[105px] left-[400px] w-[650px] h-[465px] bg-purple-950 rounded-lg z-50
+}

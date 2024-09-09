@@ -1,0 +1,156 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clothes-slider-box {
+    @apply absolute top-[100px] left-[250px] w-[1034px] h-[620px] rounded-lg
+    bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 opacity-80 brightness-125
+}
+
+/* ----- MENU ----- */
+/*clothes-left-menu*/
+.clothes-left-menu-box {
+    @apply absolute left-0 w-[200px] h-[700px] rounded-lg
+    ml-[25px] mt-4 text-black
+    bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 bg-opacity-70
+    backdrop-blur-xl drop-shadow-lg
+}
+
+.clothes-left-menu-list {
+    @apply flex flex-col items-center justify-center mt-[240px]
+    space-y-6 text-start text-[20px] text-white font-display
+}
+
+.clothes-container {
+    @apply flex flex-col space-y-6
+}
+
+.checkbox-filter-container {
+    @apply flex flex-col space-y-6
+}
+
+/*clothes-right-menu*/
+.clothes-right-menu-box {
+    @apply absolute right-0 w-[200px] h-[700px] rounded-lg
+    mr-[25px] mt-4 ml-[25px]
+    text-white
+    bg-gradient-to-r from-gray-900 via-gray-800 to-gray-800 bg-opacity-70
+    backdrop-blur-xl drop-shadow-lg
+}
+
+.clothes-right-menu-list {
+    @apply flex flex-col items-center justify-center mt-[240px] space-y-6
+    text-start text-[20px] text-white font-display
+}
+
+/* ----- CLOTHES-TOP ----- */
+
+/*clothes-top-right-*/
+.top-right-box {
+    @apply absolute -top-[120px] w-[175px] h-[275px] rounded-lg right-[37px]
+    bg-gradient-to-r from-purple-700 via-violet-800 to-purple-900 opacity-80 brightness-125
+}
+
+.top-right-creator-icon {
+    @apply absolute top-[150px] left-[65px] cursor-pointer
+}
+
+.top-right-creator-container {
+    @apply absolute top-[200px] left-[5px] text-white text-[20px] font-inter font-bold text-center
+    cursor-pointer
+}
+
+/* ----- MS-1 ----- */
+.ms-1-slider-central-box {
+    @apply absolute top-[105px] left-[250px] w-[700px] h-[170px] rounded-lg
+}
+
+/* prev-bottom */
+.ms-1-central-prev-bottom {
+    @apply absolute top-[225px] h-full z-30
+           flex items-center justify-center px-4
+           cursor-pointer focus:outline-none
+           start-0
+
+}
+
+.ms-1-central-prev-span {
+    @apply inline-flex items-center justify-center w-10 h-10 rounded-full
+    bg-white/30 dark:bg-purple-800/30 group-hover:bg-white/50 dark:group-hover:bg-purple-800/60
+    group-focus:ring-4 group-focus:ring-white group-focus:outline-none
+    dark:group-focus:ring-purple-800/70
+}
+
+.ms-1-central-prev-svg {
+    @apply w-4 h-4 text-white dark:text-purple-950 rtl:rotate-180
+}
+
+/* next-bottom */
+.ms-1-central-next-bottom {
+    @apply absolute top-[225px] z-30
+    flex items-center justify-center h-full px-4
+    cursor-pointer focus:outline-none
+    end-[200px]
+}
+
+.ms-1-central-next-span {
+    @apply inline-flex items-center justify-center w-10 h-10 rounded-full
+    bg-white/30 dark:bg-purple-800/30 group-hover:bg-white/50 dark:group-hover:bg-purple-800/60
+    group-focus:ring-4 group-focus:ring-white group-focus:outline-none
+    dark:group-focus:ring-purple-800/70
+}
+
+.ms-1-central-next-svg {
+    @apply w-4 h-4 text-white dark:text-purple-950 rtl:rotate-180
+}
+
+/* --- IMAGE SELECTOR AND SLIDER --- */
+
+.image-selector-container {
+    @apply absolute top-[105px] left-[126px] w-[115px] h-[465px] bg-white rounded-lg
+}
+
+.image-selector {
+    @apply w-[100px] h-[100px] mt-3 ml-2 border-2 hover:border-black
+}
+
+.image-slider {
+    @apply absolute w-[500px] h-[465px] object-fill duration-500 rounded-lg
+}
+
+/* --- MS-1 SELECT CATEGORIES--- */
+
+.ms-buttons {
+    @apply inline-flex items-center py-5 text-[15px] font-bold
+    border border-gray-200 dark:border-gray-600
+    focus:z-10 focus:ring-2 dark:focus:ring-white
+    dark:text-purple-950 dark:bg-white
+}
+
+.ms-active-button {
+    @apply dark:text-white dark:bg-purple-950
+}
+
+.ms1-all-box {
+    @apply absolute top-[105px] left-[761px] w-[650px] h-[465px] bg-white rounded-lg
+}
+
+.ms1-all-container {
+    @apply flex flex-col w-full h-full justify-center
+}
+
+.ms1-order-line {
+    @apply flex flex-row w-full h-full p-6 justify-evenly items-center text-[20px] mt-12 bg-orange-700
+}
+
+.ms1-order-result {
+    @apply flex flex-row w-full h-full p-6 justify-evenly items-center text-[20px] mt-6
+}
+
+.m1-order-basket-button {
+    @apply w-[150px] h-[45px] text-white text-center text-[20px] bg-orange-700 hover:bg-orange-900 rounded-lg
+}
+
+/* --- MS-1 SELECT PURCHASE -- */
+
