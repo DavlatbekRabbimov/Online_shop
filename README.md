@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ONLINE SHOP PROJECT
 
 
@@ -22,3 +23,6 @@
 # Online_shop
 
 # Online_shop
+=======
+# Online_shop
+>>>>>>> 4068c53fefaec6a2bfce31e2f675886ead305046
