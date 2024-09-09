@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {AnimatePresence, motion} from "framer-motion";
 import {sectionAnimation} from "../../../animations/motion.js";
-import {FaPhoneAlt} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
+
 export const BottomRight = () => {
 
   const [isVisible, setVisible] = useState(false);

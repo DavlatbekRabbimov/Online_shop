@@ -6,5 +6,4 @@ import * as userStyle from './user-style.css'
 import * as clothesStyle from './clothes-style.css'
 export const allStyles = {
     globalStyle, animationStyle, homeStyle, authStyle, userStyle, clothesStyle,
-
 }

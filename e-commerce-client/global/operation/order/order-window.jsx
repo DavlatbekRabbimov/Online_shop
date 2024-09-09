@@ -8,7 +8,7 @@ import {ErrorMessage, SuccessMessage} from "../../notification/custom-notificati
 export const OrderWindow = () => {
 
     const {productName} = useProvider().providing;
-    const [productBrand, setProductBrand] = useState('Polo');
+    const [productBrand] = useState('Polo');
     const [color, setColor] = useState('Yellow');
     const [size, setSize] = useState('S');
     const [price, setPrice] = useState(0.0);

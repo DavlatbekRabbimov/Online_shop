@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {FaDollarSign} from "react-icons/fa";
-import axios from "axios";
 import {useProvider} from "../../../provider/provider.jsx";
 import {ErrorMessage, SuccessMessage} from "../../../notification/custom-notification.jsx";
 import {operationCrud} from "../../../crud/Crud.jsx";

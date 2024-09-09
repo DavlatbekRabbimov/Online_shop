@@ -107,8 +107,6 @@ export const GalleryProvider = ({children}) => {
             'https://s.alicdn.com/@sc04/kf/H7cb81d6a1864492291bc5af3cc770362r.jpeg_720x720q50.jpeg'
         ];
 
-
-
     const startGallery = {
         clothesImages, jewelryImages, techniquesImages, foodsImages, giftsImages,
         menImages, womenImages, kidsImages, animalsImages,

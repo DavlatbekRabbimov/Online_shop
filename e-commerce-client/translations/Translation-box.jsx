@@ -3,7 +3,7 @@ import {useTranslation} from "react-i18next";
 import {LangSelector, Option} from "./lang-selector.jsx";
 
 export const TranslationBox = () => {
-    const [t, i18n] = useTranslation("translation");
+    const [,i18n] = useTranslation("translation");
     const selectLanguage = (lang) => {
         i18n.changeLanguage(lang);
     }

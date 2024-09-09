@@ -4,7 +4,6 @@ export const msHeaders = [`MS-1`, `MS-2`, `MS-3`, `MS-4`];
 export const msPaths = ['ms-1', 'ms-2', 'ms-3', 'ms-4'];
 export const msPrices = ['$10.0', '$15.0', '$20.0', '$25.0']
 
-
 export const jkHeaders = ['JK-1', 'JK-2', 'JK-3', 'JK-4'];
 export const jkPaths = ['jk-1', 'jk-2', 'jk-3', 'jk-4'];
 export const jkPrices = ['$18.0', '$19.0', '$34.0', '$45.0']
